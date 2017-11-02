@@ -17,6 +17,8 @@
 		8BB4F1871FA9C65E00AA8CCE /* MYLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4F1861FA9C65E00AA8CCE /* MYLib.m */; };
 		8BB4F1951FA9C71900AA8CCE /* MYLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4F1861FA9C65E00AA8CCE /* MYLib.m */; };
 		8BB4F1961FA9C72400AA8CCE /* MYLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BB4F1851FA9C65E00AA8CCE /* MYLib.h */; };
+		8BB4F19C1FA9D21900AA8CCE /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4F19A1FA9D21900AA8CCE /* MYViewController.m */; };
+		8BB4F19D1FAAB58700AA8CCE /* MYViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BB4F1991FA9D21900AA8CCE /* MYViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				8BB4F1961FA9C72400AA8CCE /* MYLib.h in CopyFiles */,
+				8BB4F19D1FAAB58700AA8CCE /* MYViewController.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +62,10 @@
 		8BB4F1851FA9C65E00AA8CCE /* MYLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYLib.h; sourceTree = "<group>"; };
 		8BB4F1861FA9C65E00AA8CCE /* MYLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYLib.m; sourceTree = "<group>"; };
 		8BB4F18C1FA9C6FD00AA8CCE /* liblib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BB4F1971FA9C78200AA8CCE /* Podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podspec; sourceTree = "<group>"; };
 		8BB4F1981FA9C79D00AA8CCE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8BB4F1991FA9D21900AA8CCE /* MYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		8BB4F19A1FA9D21900AA8CCE /* MYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		8BB4F19B1FA9D21900AA8CCE /* MYViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MYViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				8BB4F1981FA9C79D00AA8CCE /* README.md */,
-				8BB4F1971FA9C78200AA8CCE /* Podspec */,
 				8BB4F1841FA9C62000AA8CCE /* Files */,
 				8BB4F1821FA9C60C00AA8CCE /* Resources */,
 				8BB4F15D1FA9C59F00AA8CCE /* MYLib */,
@@ -139,6 +143,7 @@
 		8BB4F1821FA9C60C00AA8CCE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8BB4F19B1FA9D21900AA8CCE /* MYViewController.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -148,6 +153,8 @@
 			children = (
 				8BB4F1851FA9C65E00AA8CCE /* MYLib.h */,
 				8BB4F1861FA9C65E00AA8CCE /* MYLib.m */,
+				8BB4F1991FA9D21900AA8CCE /* MYViewController.h */,
+				8BB4F19A1FA9D21900AA8CCE /* MYViewController.m */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -295,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB4F19C1FA9D21900AA8CCE /* MYViewController.m in Sources */,
 				8BB4F1951FA9C71900AA8CCE /* MYLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,8 +11,9 @@
 @implementation MYLib
 
 -(id)init{
-    
-     if (self = [super init])
+     self = [super init];
+
+     if (self)
      {
         
          NSLog(@"hello world");
